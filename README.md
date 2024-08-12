@@ -1,4 +1,5 @@
 ## Guia Iniciante para Git e GitHub
+  <img width="150" alt="EmojiComputador" src="https://user-images.githubusercontent.com/31116694/153991716-0a1a946b-a077-4659-b4ac-ca9f7c65f9d2.PNG">
 
 Bem-vindo ao guia para iniciantes de Git e GitHub! Este tutorial irá guiá-lo através dos primeiros passos do uso de Git e GitHub, incluindo a configuração inicial e comandos básicos essenciais.
 
@@ -6,11 +7,10 @@ Bem-vindo ao guia para iniciantes de Git e GitHub! Este tutorial irá guiá-lo a
 
 1. [Instalação do Git](#instalação-do-git)
 2. [Configuração Inicial do Git](#configuração-inicial-do-git)
-3. [Criando um Repositório Local](#criando-um-repositório-local)
-4. [Conectando ao GitHub](#conectando-ao-github)
-5. [Comandos Básicos do Git](#comandos-básicos-do-git)
-6. [Fluxo de Trabalho com GitHub](#fluxo-de-trabalho-com-github)
-7. [Recursos Adicionais](#recursos-adicionais)
+3. [Conectando ao GitHub](#conectando-ao-github)
+4. [Comandos Básicos do Git](#comandos-básicos-do-git)
+5. [Fluxo de Trabalho com GitHub](#fluxo-de-trabalho-com-github)
+6. [Recursos Adicionais](#recursos-adicionais)
 
 ## Instalação do Git
 
@@ -48,25 +48,12 @@ Verifique suas configurações:
 git config --list
 ```
 
-## Criando um Repositório Local
-
-1. Crie um novo diretório para seu projeto:
-   ```bash
-   mkdir meu-projeto
-   cd meu-projeto
-   ```
-
-2. Inicialize um repositório Git:
-   ```bash
-   git init
-   ```
-
 ## Conectando ao GitHub
 
 1. Crie uma conta no [GitHub](https://github.com/).
 2. Crie um novo repositório no GitHub:
    - No canto superior direito, clique no sinal de "+" e selecione "New repository".
- <img width="200" src="https://github.com/user-attachments/assets/416fdf20-a078-46ec-b267-56aab2a0c10e">
+ <img width="150" src="https://github.com/user-attachments/assets/416fdf20-a078-46ec-b267-56aab2a0c10e">
 
    - Dê um nome ao seu repositório, escolha se ele será público ou privado e clique em "Create repository".
 
@@ -126,12 +113,6 @@ git checkout -b nome-da-branch
 git checkout nome-da-branch
 ```
 
-### Mesclar Branches
-```bash
-git checkout master
-git merge nome-da-branch
-```
-
 ### Resolver Conflitos de Merge
 1. Edite os arquivos conflitantes conforme necessário.
 2. Adicione e comite as alterações:
@@ -141,11 +122,12 @@ git merge nome-da-branch
    ```
 
 ## Recursos Adicionais
-
-- [Documentação Oficial do Git](https://git-scm.com/doc)
 - [Guia de Git do GitHub](https://guides.github.com/introduction/git-handbook/)
-- [Pro Git Book](https://git-scm.com/book/en/v2)
+- [Documentação Oficial do Git](https://git-scm.com/doc)
+- [Pro Git Book](https://git-scm.com/book/pt-br/v2)
 
 ---
 
 Este guia oferece uma introdução básica ao Git e GitHub. À medida que se sentir mais confortável, explore comandos e funcionalidades mais avançadas para aprimorar ainda mais seu fluxo de trabalho. Boas práticas de versionamento e colaboração são essenciais para projetos bem-sucedidos.
+
+## Bons estudos!!
